@@ -64,6 +64,10 @@ header li a {
     font-size: 18px;
 }
 
+.placeholder-image {
+    align-content: left;
+}
+
 /*
 article,
 aside,
@@ -333,15 +337,6 @@ a {
     border-bottom: 1px solid #ddd
 }
 
-.w3-striped tbody tr:nth-child(even) {
-    background-color: rgb(75, 106, 82)
-}
-
-.w3-hoverable tbody tr:hover,
-.w3-ul.w3-hoverable li:hover {
-    background-color: #ccc
-}
-
 .w3-centered tr th,
 .w3-centered tr td {
     text-align: center
@@ -364,7 +359,7 @@ a {
     padding-left: 16px
 }
 
-.w3-button {
+.mr-button {
     border: none;
     display: inline-block;
     padding: 8px 16px;
@@ -378,7 +373,7 @@ a {
     white-space: nowrap
 }
 
-.w3-button {
+.mr-button {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -445,8 +440,8 @@ a {
     min-width: 100%
 }
 
-.w3-bar-block .w3-dropdown-hover .w3-button,
-.w3-bar-block .w3-dropdown-click .w3-button {
+.w3-bar-block .w3-dropdown-hover .mr-button,
+.w3-bar-block .w3-dropdown-click .mr-button {
     width: 100%;
     text-align: left;
     padding: 8px 16px
@@ -464,7 +459,7 @@ a {
 }
 
 /*Keep*/
-.bar .bar-item {
+.bar {
     padding: 8px 16px;
     float: left;
     width: auto;
@@ -480,7 +475,7 @@ a {
     float: left
 }
 
-.w3-bar .w3-button {
+.w3-bar .mr-button {
     white-space: normal
 }
 
@@ -731,10 +726,10 @@ a {
 
     .w3-dropdown-hover.w3-mobile,
     .w3-dropdown-hover.w3-mobile,
-    .w3-dropdown-hover.w3-mobile .w3-button,
+    .w3-dropdown-hover.w3-mobile .mr-button,
     .w3-dropdown-click.w3-mobile,
     .w3-dropdown-click.w3-mobile,
-    .w3-dropdown-click.w3-mobile .w3-button {
+    .w3-dropdown-click.w3-mobile .mr-button {
         width: 100%
     }
 }
@@ -1103,11 +1098,6 @@ a {
     padding-bottom: 16px !important
 }
 
-.w3-padding-24 {
-    padding-top: 24px !important;
-    padding-bottom: 24px !important
-}
-
 .w3-padding-32 {
     padding-top: 32px !important;
     padding-bottom: 32px !important
@@ -1122,7 +1112,7 @@ a {
     float: right !important
 }
 
-.w3-button:hover {
+.mr-button:hover {
     color: #000 !important;
     background-color: #ccc !important
 }
@@ -1139,7 +1129,7 @@ a {
 
 /* Colors */
 
-.w3-teal,
+.light-green,
 .w3-hover-teal:hover {
     color: #fff !important;
     background-color: rgb(75, 106, 82) !important

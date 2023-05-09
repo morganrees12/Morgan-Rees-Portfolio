@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -20,11 +19,11 @@
     <img src="MR logo.jpg">
     <nav>
       <ul>
-        <li><a href="Home" class="bar-item w3-button w3-hover-white">Home</a></li>
-        <li><a href="About" class="bar-item w3-button w3-hover-white">About</a></li>
-        <li><a href="Work" class="bar-item w3-button w3-hover-white">Work</a></li>
-        <li><a href="Pricing" class="bar-item w3-button w3-hover-white">Pricing</a></li>
-        <li><a href="Contact" class="bar-item w3-button w3-hover-white">Contact</a></li>
+        <li><a href="Home" class="bar-item mr-button w3-hover-white">Home</a></li>
+        <li><a href="About" class="bar-item mr-button w3-hover-white">About</a></li>
+        <li><a href="Work" class="bar-item mr-button w3-hover-white">Work</a></li>
+        <li><a href="Pricing" class="bar-item mr-button w3-hover-white">Pricing</a></li>
+        <li><a href="Contact" class="bar-item mr-button w3-hover-white">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -32,36 +31,41 @@
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#Home" class="bar-item w3-button">Home</a>
-    <a href="#About" class="bar-item w3-button">About</a>
-    <a href="#Work" class="bar-item w3-button">Work</a>
-    <a href="#Pricing" class="bar-item w3-button">Pricing</a>
-    <a href="#contact" class="bar-item w3-button">Contact</a>
+    <a href="#Home" class="bar-item mr-button">Home</a>
+    <a href="#About" class="bar-item mr-button">About</a>
+    <a href="#Work" class="bar-item mr-button">Work</a>
+    <a href="#Pricing" class="bar-item mr-button">Pricing</a>
+    <a href="#contact" class="bar-item mr-button">Contact</a>
   </div>
   </div>
 
 
 
-  <!-- Team Container -->
+  <!-- Team section -->
   <div class="w3-container w3-padding-64 w3-center" id="team">
-    <h2>Meet The Team</h2>
-
+    <h2>About</h2>
     <div class="w3-row"><br>
-
+<!---
       <div class="w3-quarter">
-        <img src="/w3images/avatar.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <div class="placeholder-image"><img src="placeholder-image.png" alt="Image" style="height: 275px;width: 300px;">
         <h3>Morgan Rees</h3>
         <p>Job title here</p>
       </div>
-
+    </div>
     </div>
   </div>
+-->
 
-  <!-- Work Row -->
+    <div id="placeholder-image" img src="placeholder-image.png" alt="Image" style="height: 275px;width: 300px;">
+    <div class="mediacontent">Morgan Rees </div>
+</div>
+
+
+  <!-- Work section -->
   <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
 
     <div class="w3-quarter">
-      <h2>Our Work</h2>
+      <h2>My Work</h2>
       <p>Insert</p>
     </div>
 
@@ -102,7 +106,7 @@
 
   <!-- Container -->
   <div class="w3-container" style="position:relative">
-    <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+    <a onclick="w3_open()" class="mr-button w3-xlarge w3-circle light-green"
       style="position:absolute;top:-28px;right:24px">+</a>
   </div>
 
@@ -180,7 +184,7 @@
           </div>
           <input class="w3-check" type="checkbox" checked name="Like">
           <label>I Like it!</label>
-          <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+          <button type="submit" class="mr-button w3-right w3-theme">Send</button>
         </form>
       </div>
     </div>
@@ -189,14 +193,14 @@
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
     <h4>Follow Us</h4>
-    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-    <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Instagram"><i class="fa fa-instagram"></i></a>
-    <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i
+    <a class="mr-button w3-large light-green" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+    <a class="mr-button w3-large light-green" href="javascript:void(0)" title="Instagram"><i class="fa fa-instagram"></i></a>
+    <a class="mr-button w3-large light-green w3-hide-small" href="javascript:void(0)" title="Linkedin"><i
         class="fa fa-linkedin"></i></a>
     <p>Morgan Rees 2023. All rights reserved.</p>
 
     <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
-      <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+      <a class="mr-button w3-theme" href="#myPage"><span class="w3-xlarge">
           <i class="fa fa-chevron-circle-up"></i></span></a>
     </div>
   </footer>
