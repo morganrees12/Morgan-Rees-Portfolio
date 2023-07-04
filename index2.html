@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Slider</title>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .slider {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+    .slider > img {
+      scroll-snap-align: center;
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <img src="MR logo.jpg" alt="Image 1">
+    <img src="MR logo.jpg" alt="Image 2">
+    <img src="MR logo.jpg" alt="Image 3">
+    <img src="MR logo.jpg" alt="Image 4">
+    <img src="MR logo.jpg" alt="Image 5">
+    <img src="MR logo.jpg" alt="Image 6">
+    <img src="MR logo.jpg" alt="Image 7">
+    <img src="MR logo.jpg" alt="Image 8">
+    <img src="MR logo.jpg" alt="Image 9">
+    <img src="MR logo.jpg" alt="Image 10">
+  </div>
+</body>
+</html>
+
